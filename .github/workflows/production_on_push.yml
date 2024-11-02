@@ -12,9 +12,9 @@ jobs:
       group: ci-production-${{ github.event.ref }}
       cancel-in-progress: true
     with:
-      app_name: boilerplate-mern
+      app_name: workout-planner
       app_env: production
-      app_hostname: boilerplate-mern.platform.jalantechnologies.com
+      app_hostname: workout-planner.platform.jalantechnologies.com
       branch: ${{ github.event.ref }}
       checks: "['npm:lint', 'compose:test', 'compose:e2e']"
       docker_registry: ${{ vars.DOCKER_REGISTRY }}

@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-mern",
+  "name": "workout-planner",
   "version": "1.0.0",
-  "description": "Boilerplate project for NodeJS based projects in TypeScript",
+  "description": "A MERN-based workout planner app with secure login, AI-generated workout and diet plans, progress tracking, and data visualization through interactive graphs. Users can set fitness goals, receive customized plans, and track improvements over time. Built with React, Node.js, Express, and MongoDB.",
   "engines": {
     "node": "20.11.1",
     "npm": "10.2.4"

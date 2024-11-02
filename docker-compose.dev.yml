@@ -1,9 +1,9 @@
-version: '3'
+version: '4'
 
 services:
   app:
     platform: 'linux/amd64'
-    image: 'boilerplate-mern'
+    image: 'workout-planner'
     build:
       context: .
       dockerfile: Dockerfile

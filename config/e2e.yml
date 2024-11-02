@@ -2,6 +2,6 @@ accounts:
   tokenKey: 'e2e_auth_token'
 
 mongoDb:
-  uri: 'mongodb://localhost:27017/boilerplate-mern-e2e'
+  uri: 'mongodb://localhost:27017/workout-planner-e2e'
 
 webAppHost: 'http://localhost:8080'

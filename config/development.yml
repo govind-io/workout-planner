@@ -6,7 +6,7 @@ sms:
   enabled: false
 
 mongoDb:
-  uri: 'mongodb://localhost:27017/boilerplate-mern-dev'
+  uri: 'mongodb://localhost:27017/workout-planner-dev'
 
 
 webAppHost: 'http://localhost:3000'
